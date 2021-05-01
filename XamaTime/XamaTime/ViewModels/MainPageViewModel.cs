@@ -41,7 +41,7 @@ namespace XamaTime.ViewModels
             _mainPage = mainPage;
             _clockService = new ClockService(TimeZoneInfo.Local);
 
-            Title = "Xama Clock";
+            Title = "Xama Time";
             CurrentClockTime = new ClockTime();
             CurrentTimeZone = TimeZoneInfo.Local;
             TimeZones = TimeZoneInfo.GetSystemTimeZones();
